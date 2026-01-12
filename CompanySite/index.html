@@ -1,11 +1,7 @@
 
 <html> 
-
-
-<body> 
-
 <head> 
-
+    
 <style> 
 
 header {
@@ -14,8 +10,10 @@ align-items: center;
 justify-content: center;
 }
 
-.team-back {
-    background-image: url('C:\CompanySite\CompanySite\img\chicagoalley.jpg');
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .nav ul {
@@ -28,6 +26,7 @@ justify-content: center;
  
 .nav {
     text-align: center;
+    font-size: 1.375rem;
 }
 
 .back-image {
@@ -46,14 +45,140 @@ justify-content: center;
     
 }
 
+
+.mobility-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.photo-caption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.photo-card img {
+  max-width: 12.5rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.team {
+   width: 15.625rem;
+   text-align: center;
+   padding-bottom: 5rem;
+}
+
+.team img {
+    max-width: 19rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+.bottom-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/chicagoalley.jpg');
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    background-size:cover ;
+    background-position: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.bottom-back img {
+    opacity: ;
+}
+
+.team-back {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+#fourth  {
+    text-align: center;
+}
+
+.team-header h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Lexend Mega", sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.team img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-para h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-para p , .mobility-portfolio p, .photo-caption > div {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.team h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.17rem;
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 700;
+}
+
+.team p {
+    color: rgb(255, 255, 255);
+    font-family: "Lexend Mega", sans-serif;
+    line-height: 2rem;
+}
+
+.bottom h4 {
+    color: black;
+    font-weight: 700;
+    font-size: 2.063rem;
+        font-family: "Lexend Mega", sans-serif;
+}
+
+.bottom p {
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 700;
+    font-size: 1.141rem;
+
+}
+
+.bottom #number {
+
+}
+
 </style>
 
 
 </head>
-
+<body> 
 
     <header> 
-        <h1> The Producer Intelligence Experience  </h1>
+        <h1> The VC Experience  </h1>
     </header>
 
       <div class="nav"> 
@@ -73,8 +198,8 @@ justify-content: center;
         </section>
     
          <div class="text-para"> 
-            <h2> The PI Experience </h2>
-            <p> Our goal is using AI to automate our music 
+            <h2> The VC Experience </h2>
+            <p> Our goal is using AI to automate your VC
                 needs day in and day out!
             </p>
             </div>
@@ -86,61 +211,116 @@ justify-content: center;
         <section class="mobility-portfolio"> 
 
 
-            <h4> Our Mobility Portfolio </h4>
+            <h2> Our Mobility Portfolio </h2>
 
-            <h3> Impacting producers productivity by incoporating Ai into 
-                producer's daily task. </h3>
-
-            <div class="photo-caption"> 
-                <img src='./img/8WJBvnLURavyee4wcLyQhK.jpg'>
-                <p> AeroArgonauts </p>
-                <img src="./img/BKW9jZBvRcNW6b3h5Gfrq9.jpg">
-                <img src="./img/design-small (1).jpg">
-                <p> AutoBueno </p>
-                <img src="./img/design-small.jpg">
-                <p> LaneChatter </p>
-                <img src="./img/Person-working-on-music-with-laptop-hero-credit-puhimec-Getty@2000x1500.jpg">
-                <p> TigerTreads </p>
-                <img src="./img/music2.jpg">
-                <p> ValteToday </p>
-            </div>    
+            <p> Impacting producers productivity by incoporating Ai into 
+                producer's daily task. </p>
+  
 
         </section>
+
+
+        <section> 
+
+             <div class="photo-caption"> 
+               
+               
+                <div class="photo-card"> 
+                <img src='./img/8WJBvnLURavyee4wcLyQhK.jpg'>
+                </div>
+                <div class="photo-text">
+                <p> AeroArgonauts </p>
+                </div>
+
+
+                <div class="photo-card">
+                <img src="./img/BKW9jZBvRcNW6b3h5Gfrq9.jpg">
+                </div>
+                 <div class="photo-text">
+                <p> AutoBueno </p>
+                 </div>
+
+
+                <div class="photo-card">
+                <img src="./img/design-small.jpg">
+                </div>     
+                <div class="photo-text">
+                <p> LaneChatter </p>
+                     </div>
+
+
+
+                <div class="photo-card">
+                <img src="./img/Person-working-on-music-with-laptop-hero-credit-puhimec-Getty@2000x1500.jpg">
+                </div>
+                 <div class="photo-text">
+                <p> TigerTreads </p>
+                 </div>
+                 
+                <div class="photo-card">
+                <img src="./img/music2.jpg">
+                </div>   
+                <div class="photo-text">
+                <p> ValteToday </p>
+                     </div>
+            </div> 
+
+        </section>
+
+
+<div class="team-header">
+ <h4 id="fourth"> Our Team  </h4>  
+</div>
+
+
+        <div class="bottom-back">
+        <section class="team2">
         <div class="team-back">
-        <section class="team">
-        <h4> Our team  </h4>        
+        
+            
+             
+
+            <div class="team">     
         <img src="./img/team/billgates.jpg">
             <h3> Bill Gates </h3>
             <p> C.E.O - Founder and Principal Investor </p>
+            </div>
 
+        <div class="team">
             <img src="./img/team/elon musk.jpg">
             <h3> Elon Musk </h3>
             <p> Partner - Research & Development </p>
+        </div>
 
+        <div class="team"> 
             <img src="./img/team/warre.jpg">
             <h3> Warren Buffet </h3>
             <p> Partner - Partnerships & Marketing </p>
-   
-             </div>
-    
+   </div>
 
+       
+             </div>
+     </section>
+        </div>
 
     </main>
 
 
 <footer> 
 
-    <h4> The PI Experience </h4>
+    <div class="bottom">
+    <h4> The VC Experience </h4>
 
-    <p>  producerintelligence@exeperience.ivestors </p>
+    <p>  VC@exeperience.ivestors </p>
 
-    <p> 951 - 807 - 6455 </p>
+    <p id="number"> 951 - 807 - 6455 </p>
 
 
-    <p> copyright PI Experience 2020 </p>
+    <p id="copyright"> copyright VC Experience 2020 </p>
+         </div>
+
 
 </footer>
-
 
 </body>
 
